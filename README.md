@@ -26,20 +26,31 @@ The dataset consists of medical records with around 50 features, including patie
   - Diabetes classification (diabetic/non-diabetic)
 
 ## ⚙️ Installation & Setup
-To run the project, follow these steps:
+To run the project, follow these steps with python version 3.11.9:
 
 1. **Clone the repository**
    ```sh
-   git clone 
+   git clone https://github.com/ElliotKoch/diabetes-prediction.git
    cd diabetes-prediction
    ```
-2. **Install dependencies**
+3. **Setup virtual environment**
    ```sh
+   python -m venv .venv
+   .venv\Scripts\activate
+   where python
+   ```
+3. **Install dependencies**
+   ```sh
+   python.exe -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
-3. **Run the Jupyter Notebook**
+4. **Run the Jupyter Notebook**
    ```sh
    jupyter notebook Koch_Elliot_Predict__Diabetes.ipynb
+   ```
+4. **Close the virtual environment** 
+   ```sh
+   deactivate
    ```
 
 ## 🧠 Model Training
