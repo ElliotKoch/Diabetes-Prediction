@@ -8,7 +8,7 @@ This project aims to predict whether a patient has diabetes based on a medical d
 Diabetes-Prediction/
 │── Koch_Elliot_Predict_Diabetes_Presentation.pdf  # Project Presentation
 │── Koch_Elliot_Predict_Diabetes_Report.pdf        # Final Report
-│── Koch_Elliot_Predict__Diabetes.ipynb            # Jupyter Notebook with ML model
+│── Koch_Elliot_Predict_Diabetes.ipynb            # Jupyter Notebook with ML model
 │── README.md                                      # Project documentation
 │
 ├── Datasets/
