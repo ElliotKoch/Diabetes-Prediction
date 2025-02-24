@@ -1,7 +1,7 @@
 # Diabetes Prediction using Machine Learning
 
 ## 📌 Project Overview
-This project aims to predict whether a patient has diabetes based on a medical dataset using various machine learning techniques. The dataset contains patient medical records, and the model applies supervised learning methods, including deep learning, to make accurate predictions.
+This project aims to predict whether a patient has diabetes based on a medical dataset using various machine learning techniques. The dataset contains patient medical records, and the model applies supervised learning methods, including deep learning, to make accurate predictions. 
 
 ## 📂 Repository Structure
 ```
