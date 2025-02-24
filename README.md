@@ -30,8 +30,8 @@ To run the project, follow these steps:
 
 1. **Clone the repository**
    ```sh
-   git clone <repo_url>
-   cd Diabetes-Prediction
+   git clone 
+   cd diabetes-prediction
    ```
 2. **Install dependencies**
    ```sh
