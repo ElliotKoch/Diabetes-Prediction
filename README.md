@@ -44,11 +44,16 @@ To run the project, follow these steps with python version 3.11.9:
    python.exe -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
-4. **Run the Jupyter Notebook**
+4. **Run the jupyter notebook**
    ```sh
    jupyter notebook Koch_Elliot_Predict__Diabetes.ipynb
    ```
-4. **Close the virtual environment** 
+5. **Use the saved model**
+   ```sh
+   loaded_model = tf.keras.models.load_model("dl_model.h5")
+   ```
+
+6. **Close the virtual environment** 
    ```sh
    deactivate
    ```
