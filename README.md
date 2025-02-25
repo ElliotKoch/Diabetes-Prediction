@@ -48,12 +48,7 @@ To run the project, follow these steps with python version 3.11.9:
    ```sh
    jupyter notebook Koch_Elliot_Predict__Diabetes.ipynb
    ```
-5. **Use the saved model**
-   ```sh
-   loaded_model = tf.keras.models.load_model("dl_model.h5")
-   ```
-
-6. **Close the virtual environment** 
+5. **Close the virtual environment** 
    ```sh
    deactivate
    ```
@@ -71,7 +66,10 @@ The project applies multiple machine learning techniques:
 | Optimized Deep Learning | 99.87% |
 
 ## 🚀 Usage
-After running the notebook, the trained model can be used for predictions. Modify the notebook to test new patient data.
+After running the notebook, the trained model can be used for predictions. On a different Python file, the best model can be loaded with:
+```sh
+   loaded_model = tf.keras.models.load_model("dl_model.h5")
+```
 
 ## 📜 License
 This project is open-source and free to use for research and educational purposes.
